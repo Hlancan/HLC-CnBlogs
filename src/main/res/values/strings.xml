@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CnBlogs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="news">新闻</string>
+    <string name="hot_news">热门新闻</string>
+    <string name="newest_news">最新新闻</string>
+    <string name="recommend_news">推荐新闻</string>
+    <string name="blog">博客</string>
+    <string name="allblog">所有博客</string>
+    <string name="most_read_blog">48小时阅读排行</string>
+    <string name="most_recommend_blog">10天内推荐排行</string>
+    <string name="collect">收藏</string>
+    <string name="bookmarks">书签</string>
+    <string name="offline_browsing">离线浏览</string>
+    <string name="tools">工具</string>
+    <string name="search">搜索</string>
+    <string name="setting">设置</string>
+    <string name="exit">退出</string>
+    <string name="blogger_list">博客列表</string>
+    <string name="bookmark_checkall">全选</string>
+    <string name="bookmark_cancel">取消</string>
+    <string name="bookmark_delete">删除</string>
+    <string name="search_blogger">请输入博主名称</string>
+    <string name="setting_slid_title">滑动菜单管理皮肤</string>
+    <string name="setting_system_title">系统设置</string>
+    <string name="setting_system_down">下载博主头像</string>
+    <string name="setting_system_eye">护眼模式</string>
+    <string name="setting_other">其他</string>
+    <string name="setting_other_feedback">反馈</string>
+    <string name="setting_other_about">关于</string>
+    <string name="remove">清除</string>
+</resources>

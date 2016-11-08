@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/hot_news_content_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:outlineProvider="none"
+        android:elevation="1dp"
+        android:background="#3b000000"
+        android:title="最热新闻"/>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nest_hotnews_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <WebView
+                android:id="@+id/wv_hotnews_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"/>
+            <!--解决nestView无法滑倒低端-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@color/background_light"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

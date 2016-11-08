@@ -1,0 +1,11 @@
+/assets/
+/bin/
+/gen/
+.classpath
+.project
+project.properties
+/proguard/
+*/.idea/
+*/.gradle/
+*/app.iml
+*/gradle/

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:background="#081218"
+    android:orientation="vertical" >
+
+   <ScrollView
+        android:id="@+id/left_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/left_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/left_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/news"
+                    style="@style/MiddleText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/news" />
+
+                <TextView
+                    android:id="@+id/hot_news"
+                    style="@style/LeftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/heart_32"
+                    android:gravity="left"
+                    android:text="@string/hot_news" />
+
+                <View
+                    android:id="@+id/divide_line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/list_item_divide_operate" />
+
+                <TextView
+                    android:id="@+id/newest_news"
+                    style="@style/LeftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/rss_32"
+                    android:text="@string/newest_news" />
+
+                <View
+                    android:id="@+id/divide_line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/list_item_divide_operate" />
+
+                <TextView
+                    android:id="@+id/recommend_news"
+                    style="@style/LeftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/globe_32"
+                    android:text="@string/recommend_news" />
+
+                <TextView
+                    android:id="@+id/blog"
+                    style="@style/MiddleText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/blog" />
+
+                <TextView
+                    android:id="@+id/allblog"
+                    style="@style/LeftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/star_32"
+                    android:gravity="left"
+                    android:text="@string/allblog" />
+
+                <View
+                    android:id="@+id/divide_line3"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/list_item_divide_operate" />
+
+                <TextView
+                    android:id="@+id/most_read_blog"
+                    style="@style/LeftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/chart_bar_down_32"
+                    android:text="@string/most_read_blog" />
+
+                <View
+                    android:id="@+id/divide_line4"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/list_item_divide_operate" />
+
+                <TextView
+                    android:id="@+id/most_recommend_blog"
+                    style="@style/LeftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/chart_area_32"
+                    android:text="@string/most_recommend_blog" />
+
+                <TextView
+                    android:id="@+id/collect"
+                    style="@style/MiddleText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/collect" />
+
+                <TextView
+                    android:id="@+id/bookmarks"
+                    style="@style/LeftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/book_bookmark_32"
+                    android:gravity="left"
+                    android:text="@string/bookmarks" />
+
+                <View
+                    android:id="@+id/divide_line5"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/list_item_divide_operate" />
+
+                <TextView
+                    android:id="@+id/offline_browsing"
+                    style="@style/LeftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/document_32"
+                    android:text="@string/offline_browsing" />
+
+                <TextView
+                    android:id="@+id/tools"
+                    style="@style/MiddleText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/tools" />
+
+                <TextView
+                    android:id="@+id/search"
+                    style="@style/LeftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/edittext_search_image"
+                    android:gravity="left"
+                    android:text="@string/search" />
+
+                <View
+                    android:id="@+id/divide_line6"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/list_item_divide_operate" />
+
+                <TextView
+                    android:id="@+id/setting"
+                    style="@style/LeftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/gear_32"
+                    android:text="@string/setting" />
+
+                <View
+                    android:id="@+id/divide_line7"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/list_item_divide_operate" />
+
+                <TextView
+                    android:id="@+id/exit"
+                    style="@style/LeftText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/exit_32"
+                    android:text="@string/exit" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
